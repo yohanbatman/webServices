@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cayenne-project xmlns="http://cayenne.apache.org/schema/cayenne-project">
+    <data-map name="cayenne_demo">
+        <db-entity name="User ">
+            <attribute name="id" type="Integer" primary-key="true" />
+            <attribute name="name" type="String" />
+        </db-entity>
+    </data-map>
+</cayenne-project>
