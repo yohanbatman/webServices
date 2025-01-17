@@ -24,10 +24,7 @@ public class TestApplication implements CommandLineRunner  {
         String baseUrl = String.format("http://localhost:%d", 8080);
 
         System.out.println("Custom API Endpoints:");
-        System.out.println("GET: " + baseUrl + "/api/items");
-        System.out.println("POST: " + baseUrl + "/api/items");
-        System.out.println("PUT: " + baseUrl + "/api/items/{id}");
-        System.out.println("DELETE: " + baseUrl + "/api/items/{id}");
+        System.out.println(baseUrl); 
     }
 
 }
